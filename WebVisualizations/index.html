@@ -23,9 +23,9 @@
                             PLOTS
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="">Max Temperature</a>
+                            <a class="dropdown-item" href="max_temp">Max Temperature</a>
                             <a class="dropdown-item" href="">Humidity</a>
-                            <a class="dropdown-item" href="">Cloudiness</a>
+                            <a class="dropdown-item" href="">Cloud_cover</a>
                             <a class="dropdown-item" href="">Wind Speed</a>
                         </div>
                     </li>
@@ -34,9 +34,6 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="">DATA</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="">REPO</a>
                     </li>
                 </ul>
             </div>
@@ -49,7 +46,10 @@
                     <h3 class="title">SUMMARY: LATITUDE VS. X</h3>
                     <hr>
                     <img src="Images/max_temp.png" class="vizualization rounded float-left" alt="Max Temperature Graph">
-                    <p></p>
+                    <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis we first pulled data from the
+                    OpenWeatherMap API to assemble a dataset on over 500 cities</p>
+                    <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed,
+                    and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
                 </div>
             </div>
             <div class = "col-md-5 col-md-5">
@@ -60,14 +60,14 @@
                         <div class="row" style="padding-bottom: 70px;">
                             <div class="col-6">
                                 <div class="title">
-                                <a href="">
+                                <a href="max_temp.html">
                                 <img class="panel" src="Images/max_temp.png" alt="Max Temperature Graph">
                                 </a>
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="title">
-                                <a href="">
+                                <a href="WebVisualization/humidity.html">
                                 <img class="panel" src="Images/humidity.png" alt="Humidity Graph">
                                 </a>
                                 </div>
@@ -76,14 +76,14 @@
                         <div class="row" style="padding-bottom: 70px;">
                             <div class="col-6">
                                 <div class="title">
-                                <a href="">
-                                <img class="panel" src="Images/cloud_cover.png" alt="Cloudiness Graph">
+                                <a href="WebVisualization/cloud_cover.html">
+                                <img class="panel" src="Images/cloud_cover.png" alt="Cloud cover Graph">
                                 </a>
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="title">
-                                <a href="WebVisualizations/wind.html">
+                                <a href="WebVisualizations/wind_speed.html">
                                     <img class="panel" src="Images/wind_speed.png" alt="Wind Speed Graph">
                                 </a>
                                 </div>
