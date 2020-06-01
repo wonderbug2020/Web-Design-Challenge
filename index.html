@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="./WebVisualizations/style.css">
     <title>Bootstrap Visualization Dashboard</title>
 </head>
 <body>
     <div class="navigation">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
             <a class="navbar-brand" style="background-color: rgb(1, 138, 138);" href="index.html">LATITUDE</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -23,14 +23,14 @@
                             PLOTS
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
-                            <a class="dropdown-item" href="humidity.html">Humidity</a>
-                            <a class="dropdown-item" href="cloud_cover.html">Cloud_cover</a>
-                            <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+                            <a class="dropdown-item" href="./WebVisualizations/max_temp.html">Max Temperature</a>
+                            <a class="dropdown-item" href="./WebVisualizations/humidity.html">Humidity</a>
+                            <a class="dropdown-item" href="./WebVisualizations/cloud_cover.html">Cloud_cover</a>
+                            <a class="dropdown-item" href="./WebVisualizations/wind_speed.html">Wind Speed</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="compare.html">COMPARISON</a>
+                        <a class="nav-link" href="./WebVisualizations/compare.html">COMPARISON</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="">DATA</a>
@@ -45,7 +45,7 @@
                 <div class="box" style="padding-bottom: 15px;">
                     <h3 class="title">SUMMARY: LATITUDE VS. X</h3>
                     <hr>
-                    <img src="Images/max_temp.png" class="float-cente" alt="Max Temperature Graph">
+                    <img src="./WebVisualizations/Images/max_temp.png" class="float-cente" alt="Max Temperature Graph">
                     <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis we first pulled data from the
                     OpenWeatherMap API to assemble a dataset on over 500 cities</p>
                     <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed,
@@ -60,15 +60,15 @@
                         <div class="row" style="padding-bottom: 70px;">
                             <div class="col-6">
                                 <div class="title">
-                                <a href="max_temp.html">
-                                <img class="panel" src="Images/max_temp.png" alt="Max Temperature Graph">
+                                <a href="./WebVisualizations/max_temp.html">
+                                <img class="panel" src="./WebVisualizations/Images/max_temp.png" alt="Max Temperature Graph">
                                 </a>
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="title">
-                                <a href="humidity.html">
-                                <img class="panel" src="Images/humidity.png" alt="Humidity Graph">
+                                <a href="./WebVisualizations/humidity.html">
+                                <img class="panel" src="./WebVisualizations/Images/humidity.png" alt="Humidity Graph">
                                 </a>
                                 </div>
                             </div>
@@ -76,15 +76,15 @@
                         <div class="row" style="padding-bottom: 70px;">
                             <div class="col-6">
                                 <div class="title">
-                                <a href="cloud_cover.html">
-                                <img class="panel" src="Images/cloud_cover.png" alt="Cloud cover Graph">
+                                <a href="./WebVisualizations/cloud_cover.html">
+                                <img class="panel" src="./WebVisualizations/Images/cloud_cover.png" alt="Cloud cover Graph">
                                 </a>
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="title">
-                                <a href="wind_speed.html">
-                                    <img class="panel" src="Images/wind_speed.png" alt="Wind Speed Graph">
+                                <a href="./WebVisualizations/wind_speed.html">
+                                    <img class="panel" src="./WebVisualizations/Images/wind_speed.png" alt="Wind Speed Graph">
                                 </a>
                                 </div>
                             </div>
